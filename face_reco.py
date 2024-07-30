@@ -74,7 +74,7 @@ class VideoCamera(object):
         if self.send_email == 'TRUE':
             self.sender_email = 'younes.azouagh@gmail.com'
             self.receiver_email = 'ezouagh.youness@gmail.com'
-            self.password = 'myapplication.'
+            self.password = 'myapplication.' # sender email's password
 
             self.message = MIMEMultipart("alternative")
             self.message["Subject"] = "Alert: A New Person Entered the Premises"
